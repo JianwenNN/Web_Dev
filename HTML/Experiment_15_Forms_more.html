@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="refresh" content="15">
+</head>
+
+<body>
+
+<form action="">
+<fieldset>
+<legend>Personal information:</legend>
+Name:<input type="text" size="30"><br>
+E-mail:<input type="text" size="30"><br>
+Date of birth: <input type="text" size="10">
+</fieldset>
+</form>
+<br>
+<form name="input" action="html_form_action.asp" method="get">
+Username: <input type="text" name="username"><br>
+Password: <input type="password" name="password"><br>
+<input type="submit" value="submit">
+</form>
+<br>
+<h3>Send e-mail to stephy.jxu@gmail.com:</h3>
+<form action="mailto:stephy.jxu@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name" value="Jianwen Xu"><br>
+Email:<br>
+<input type="text" name="name" value="jxu12@iit.edu"><br>
+Comment:<br>
+<textarea rows="10" cols="30">
+Your comment.
+</textarea>
+<br><br>
+<input type="submit" value="send">
+<input type="reset" value="reset">
+</form>
+</body>
+</html>
