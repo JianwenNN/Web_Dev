@@ -50,5 +50,56 @@ ctx.font="30px Comic Sans MS";
 ctx.fillText("Love Ya",10,30);
 ctx.strokeText("Love Ya",10,70);
 </script>
+<br><br>
+<canvas id="myCanvas5" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+<script>
+var c=document.getElementById("myCanvas5");
+var ctx=c.getContext("2d");
+
+//Create gradient
+var grd=ctx.createLinearGradient(0,0,200,0);
+grd.addColorStop(0,"pink");
+grd.addColorStop(1,"skyblue");
+
+//Fill with gradient
+ctx.fillStyle=grd;
+ctx.fillRect(10,10,150,80);
+</script>
+<br><br>
+<canvas id="myCanvas6" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+<script>
+var c=document.getElementById("myCanvas6");
+var ctx=c.getContext("2d");
+
+//Create gradient
+var grd=ctx.createRadialGradient(75,50,5,90,60,100);
+grd.addColorStop(0,"pink");
+grd.addColorStop(1,"skyblue");
+
+//Fill with gradient
+ctx.fillStyle=grd;
+ctx.fillRect(10,10,150,80);
+</script>
+<br><br>
+
+
+<p>Image to use:</p>
+<img id="hairstyle" src="hairstyle.PNG" alt="hairstyle" width="242" height="305">
+<p>Canvas:</p>
+<canvas id="myCanvas7" width="270" height="350" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+
+var c7=document.getElementById("myCanvas7");
+var ctx7=c7.getContext("2d");
+var img7=document.getElementById("hairstyle");
+ctx7.drawImage(img7,10,10);
+
+</script>
+<br><br>
+
 </body>
 </html>
