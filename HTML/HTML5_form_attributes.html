@@ -14,7 +14,27 @@ First name: <input type="text" name="fname"><br>
 <input type="submit" value="Submit">
 </form>
 
-<p>The "Last name" field below is outside the form element, but still part of the form.</p>
+<p>The "Last name" field below is outside the form element, 
+but still part of the form.</p>
 Last name: <input type="text" name="lname" form="form1">
+<br><br>
+<form action="demo_form.asp">
+  Select images: <input type="file" name="img" multiple>
+  <input type="submit">
+</form>
+
+<p>Try selecting more than one file when browsing for files.</p>
+<br><br>
+<form action="demo_form.asp">
+ country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" 
+ title="Three letter country code">
+ <input type="submit">
+</form>
+<br><br>
+<form action="demo_form.asp">
+ Password:<input type="password" name="password" pattern="[A-Za-z]{10}" 
+ title="10 chanracters limited">
+ <input type="submit">
+</form>
 </body>
 </html>
