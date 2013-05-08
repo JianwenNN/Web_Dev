@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.loose {letter-spacing:3px;}
+p.tight {letter-spacing:-3px;}
+p.small {line-height:70%;}
+p.big {line-height:120%;}
+div.ex1 {direction:rtl;}
+p.wide {word-spacing:20px;}
+</style>
+</head>
+
+<body>
+<p class="loose">This is an example.</p>
+<p class="tight">This is an example.</p>
+<p class="small">This is an example.<br>
+This is an example.<br>
+This is an example.<br>
+</p>
+<p class="big">This is an example.<br>
+This is an example.<br>
+This is an example.<br>
+</p>
+<div class="ex1">
+This is an example. This is an example.
+</div>
+<p class="wide">This is an example.</p>
+</body>
+</html>
