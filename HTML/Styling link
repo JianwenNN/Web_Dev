@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link {color:00CCFF;}
+a:visited {color:663399;}
+a:hover {color:CCFF00 bold;}
+a:active {color:red bold;}
+</style>
+</head>
+
+<body>
+<a href="http://www.google.com" target="_blank">Visit Google.com</a>
+</body>
+</html>
