@@ -4,8 +4,8 @@
 <style>
 a:link {color:00CCFF;}
 a:visited {color:663399;}
-a:hover {color:yellow font-weight:bold;}
-a:active {color:red font-weight:bold;}
+a:hover {color:yellow;}
+a:active {color:red;}
 </style>
 </head>
 
