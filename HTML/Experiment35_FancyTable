@@ -3,6 +3,22 @@
 <head>
 <style>
 caption {caption-side:bottom;}
+#fancy
+{
+font-family:"Comic Sans MS";
+width:100%;
+border-collapse:collapse;
+}
+#fancy th, #fancy td
+{
+font-size:1em;
+border:1px solid #6633CC;
+padding:5px 5px 5px p5x;
+}
+#fancy th
+{
+
+}
 </style>
 </head>
 </html>
